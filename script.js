@@ -6,9 +6,6 @@ const scoreCard =document.querySelector('.scoreCard');
 const alert = document.querySelector('.alert');
 const startBtn=document.querySelector('.startBtn');
 const timer = document.querySelector('.timer');
-
-
-
 const quiz =[
     {
         question:"Q.THE WORLD FAMOUS MONUMENT 'PYRAMID' IS LOCATED IN ?",
@@ -19,13 +16,11 @@ const quiz =[
         question:"Q.WHICH AMONG THE FOLLOWING PLANETS LOOKS GREENISH ?",
         choices:["SATURN","VENUS","URANUS","EARTH"],
         answer:"URANUS"
-
     },
     {
         question:"Q.ARAM BAGH IS LOCATED IN ?",
         choices:["BIKANER","JAIPUR","AGRA","DELHI"],
         answer:"AGRA"
-
     },
     {
         question:"Q.NATIONAL EMBLEM OF AUSTRALIA IS ?",
